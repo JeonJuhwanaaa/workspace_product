@@ -17,7 +17,7 @@ public class UserManagementPageServlet extends HttpServlet {
     }
 
  // 회원 가입 페이지
-    // 서버 사이드 렌더링 (csr) - 서버에서 사이트를 작성(동적페이지)
+    // 서버 사이드 렌더링 (ssr) - 서버에서 사이트를 작성(동적페이지)
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String html = null;
